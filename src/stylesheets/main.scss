@@ -1,1 +1,160 @@
-// Your styles go here
+html{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+*, ::before, ::after{
+    box-sizing: inherit;
+}
+
+.top{
+    display: none;
+}
+form{
+    display: none;
+}
+
+.Read-more{
+    display: none;
+}
+
+footer{
+    background-color: lightgray;
+    text-align: center;
+    padding: 1%;
+}
+
+footer > :first-child{
+    display: none;
+}
+
+img{
+    max-width: 99vw;
+    border-radius: 10px;
+}
+
+button{
+    border-radius: 25px;
+    padding: 10px 20px 10px 20px;
+    background-color: lightgray;
+    border: 0;
+}
+.clearfix{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    clear: both;
+}
+.bottom{
+    border-top: 2px solid black;
+    text-align: center;
+}
+.bottom > ul{
+    text-decoration: none;
+    list-style: none;
+}
+.bottom > ul > li{
+    display: inline-block;
+    padding-right: 10px;
+}
+.second{
+    padding-top: 20px;
+    border-top: 2px solid black;
+}
+.pull-left-nav{
+    float: left;
+}
+.pull-right-nav{
+    float: right;
+}
+.pullright-img{
+    max-width: 60px;
+    float: right;
+    padding-top: 10px;
+}
+.float-left-header{
+    float: left;
+}
+.header{
+    border-bottom: 2px solid black;
+}
+.floatno{
+    clear: both;
+}
+.pull-right{
+    display: none;
+ }
+
+@media all and (min-width: 600px){
+
+    header{
+        border: 0;
+        vertical-align: middle;
+    }
+
+.Read-more{
+    display: flex;
+ }
+.top{
+    display: block;
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+img{
+    max-width: 500px;
+    width: 50%;
+    border: 2px soild black;
+    border-radius: 10px;
+    margin:  .75rem;
+}
+
+ .pull-left{
+    float: left;
+ }
+
+ .pull-right{
+    float: right;
+    display: flex;
+    padding-right: 10%;
+ }
+.second{
+    clear: left;
+}
+.bottom{
+    clear: left;
+}
+.first{
+    clear: right;
+}
+footer > :first-child{
+    display: flow;
+}
+.pull-left-footer{
+    float: left;
+}
+.pull-right-footer{
+    float: right;
+}
+.clearfix-bottom{
+    display: flow-root;
+}
+.second{
+    padding-top: 0;
+}
+.pull-left-nav{
+    float: none;
+}
+.pull-right-nav{
+    float: none;
+}
+.bottom > ul > li{
+    padding-right: 15px;
+    padding-left: 15px
+}
+.pullright-img{
+    display: none;
+}
+}

@@ -3,14 +3,65 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Project Starter</title>
+  <title>A01: CSS Fundamentals</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="./stylesheets/main.scss">
 </head>
 
-<body>
-  <!--  Your HTML goes here-->
-  <h1>Welcome to WEB 2620!!!!!</h1>
-<script type="module" src="./javascripts/main.js"></script>
-</body>
+  <body>
+    
+    <header class="header">
+      <h1 class="float-left-header">My Blog</h1>
+      <img class="pullright-img" src="images/bars-solid.svg" alt="">
+      <button class="pull-right">Type to search</button>
+      <p class="floatno"></p>
+    </header>
+
+    <nav class="clearfix">
+
+      <h1 class="top">Home|Recent posts|Old posts|Contact us|About us</h1>
+
+      <main class="container">
+        <article>
+          <section class="first">
+            <img src="images/norris-niman-ABtmE3jhaPQ-unsplash.jpg" alt="Iceland Mouitains" class="pull-left">
+              <h2>First Post With Image</h2>
+              <h3>By Adam Smith: Jan 1, 2020</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur modi tempora error, facere deleniti. Quaerat iusto reiciendis, eos illo eaque numquam asperiores architecto cum tempora, corporis aperiam! Ipsum, accusamus?
+              </p>
+              <button class="Read-more">Read more</button>
+          </section>
+        </article>
+
+        <article class="second">
+          <section>
+            <img src="images/norris-niman-ABtmE3jhaPQ-unsplash.jpg" alt="Iceland Mouitains" class="pull-left">
+              <h2>Second Post With Image</h2>
+              <h3>By John Doe: Jan 1, 2020</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem tenetur modi tempora error, facere deleniti. Quaerat iusto reiciendis, eos illo eaque numquam asperiores architecto cum tempora, corporis aperiam! Ipsum, accusamus?
+              </p>
+              <button class="Read-more">Read more</button>
+          </section>
+        </article>
+
+        <section class="bottom">
+          <ul>
+            <li class="pull-left-nav"><button>Prev</button></li>
+            <li>1/4</li>
+            <li class="pull-right-nav"><button>Next</button></li>
+          </ul>
+        </section>
+
+      </main>
+    </nav>
+
+    <footer class="clearfix-bottom">
+      <span class="pull-left-footer">Facebook Twitter Google+</span>
+      <span class="pull-right-footer">&copy; All Rights Reserved</span>
+    </footer>
+
+    <script type="module" src="./javascripts/main.js"></script>
+  </body>
 </html>
